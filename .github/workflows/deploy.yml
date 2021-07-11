@@ -36,7 +36,7 @@ jobs:
         run: yarn install
 
       - name: Test unit
-        run: npm test:unit
+        run: yarn test:unit
 
       # Runs a set of commands using the runners shell
       - name: Build page
